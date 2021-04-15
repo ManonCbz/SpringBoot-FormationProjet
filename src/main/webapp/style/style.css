@@ -1,0 +1,207 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #dce8e4;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-weight: initial;
+}
+
+table, th, td {
+	  border: 1px solid black;
+	  border-collapse: collapse;
+}
+
+table {
+	background: white;
+	width: 100%;
+	text-align: center;
+}
+
+table ul {
+	float: left;
+}
+
+thead tr {
+	height: 40px;
+}
+/* ============================== Formulaire de connexion (log.jsp) ============================== */
+
+.formLog {
+	border: 1px solid gray;
+	width: 40vw;
+	max-width: 500px;
+    margin: 25vh auto;	
+    text-align: center;
+    box-shadow: 2px 2px 2px grey;
+    background: white;
+}
+
+.formLog * {
+	display: block;
+    margin: 10px auto;
+}
+
+.btnForm {
+	border: none;
+    background: none;
+    cursor: pointer;
+    margin-top: 20px;
+    color: gray;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.btnForm:hover {
+	background: gray;
+	color: white;
+}
+
+.error {
+	color: red;
+	margin-top: -10px;
+    font-size: 10px;
+    font-style: italic;
+    text-align: left;
+    margin-left: 30%;
+}
+
+.viewport {
+    border: 1px solid gray;
+    width: 80vw;
+    margin: 18vh auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px grey;
+    background: white;
+    height: 60vh;
+}
+
+/* ============================== Base navigation ============================== */
+
+.menuViewport {
+	width: 210px;
+	border-left: 1px solid gray;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btnMenu * {
+	padding: 5px;
+}
+
+.menuViewport * {
+	display: block;
+	margin: 10px auto;
+}
+
+.menuViewport input {
+	cursor: pointer;
+}
+
+.affichageViewport {
+	width: 70%;
+}
+
+.test {
+	padding: 20px;
+    height: 80%;
+}
+
+.deconnexion {
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+.deconnexion:hover {
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+/* ============================== Menu ============================== */
+
+.name {
+	font-weight: bold;
+	font-family: monospace;
+}
+
+.noteFormation {
+	font-weight: initial;
+	color: grey;
+}
+
+/* */
+
+section{
+  width: 100%;
+}
+
+section #ul li{
+  float: left;
+  list-style: none;
+}
+
+section #ul li a{
+  display: block;
+  color: black;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  background-color: silver;
+  margin-left: 5px;
+  border-radius: 10px 10px 0 0;
+}
+
+section #ul li a:hover{
+  opacity: 0.8;
+}
+
+section #ul li:first-child a{
+  margin-left: 0;
+}
+
+section #ul .active{
+  background-color: #eaeaea;
+}
+
+section #content{
+  clear: both;
+  height: 200px;
+  background: silver;
+  padding: 20px;
+}
+
+#contentStagiaire, #contentFormateur, #contentPassees, #contentEnCours, #contentProgrammees {
+    width: 95%;
+    background: #eaeaea;
+    margin: 46px auto;
+    padding: 10px;
+    height: 35vh;
+ 	overflow-y: scroll;
+}
+
+.formCreerCompte {
+	background: aliceblue;
+}
+
+.formCreerCompte * {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.blockForm {
+	display: flex;
+}
+
